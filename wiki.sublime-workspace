@@ -1,0 +1,752 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tran",
+				"transitionTime"
+			],
+			[
+				"lo",
+				"localDataPath"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"di",
+				"dimensions"
+			],
+			[
+				"brav",
+				"braves"
+			],
+			[
+				"ne",
+				"newPlayer"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"s",
+				"script	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/app.js",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/index.html",
+			"settings":
+			{
+				"buffer_size": 923,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/directives/op_itm_compound.js",
+			"settings":
+			{
+				"buffer_size": 794,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/directives/op_lst_compound.js",
+			"settings":
+			{
+				"buffer_size": 801,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/directives/op_wdg_compound.js",
+			"settings":
+			{
+				"buffer_size": 662,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/services/OpenPhacts.js",
+			"settings":
+			{
+				"buffer_size": 2160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/directives/smiles.js",
+			"settings":
+			{
+				"buffer_size": 510,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Etienne/Desktop/web_components/views/op_compound.html",
+			"settings":
+			{
+				"buffer_size": 847,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"uni",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Etienne/Desktop/web_components/directives/op_compound.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/op_object.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/op_compound_cont.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/op_compound - Copie.js",
+		"/C/Users/Etienne/Desktop/web_components/services/op_getURL.js",
+		"/C/Users/Etienne/Desktop/web_components/test.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/web_components/test.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/web_components/test.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/views/articles.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/controllers/articles.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/template.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/views/article-edit.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/styles/main.css",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/controllers/article-edit.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/directives/data.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/directives/content-editable.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/index.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/views/login.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/article.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/directives/autofill-fix.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/views/nav.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/terrible-stuff.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/doc-selection-manip.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/triplet.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/app.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/directives/brave.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/flyouts.js",
+		"/C/Users/Etienne/Google Drive/CV/cv.css",
+		"/C/Users/Etienne/Google Drive/CV/cv.html",
+		"/C/Users/Etienne/Desktop/Wiki/.jshintrc",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/config.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/app.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/index.html",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/services/firerefservice.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/bower_components/angularfire/angularfire.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/controllers/gamescontroller.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/controllers/auth.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/views/register.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/auth.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/user.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/controllers/nav.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/services/gameservice.js",
+		"/C/Users/Etienne/Desktop/Wiki/test/spec/controllers/article-edit.js",
+		"/C/Users/Etienne/Desktop/Wiki/test/spec/controllers/main.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/bower_components/angularfire/bower.json",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/JavaScript/function.sublime-snippet",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/User/js_function.sublime-snippet",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/User/ng_scope.sublime-snippet",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/User/ng_controller.sublime-snippet",
+		"/C/Users/Etienne/Desktop/Wiki/app/views/main.html",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/controllers/main.js",
+		"/C/Users/Etienne/Desktop/SimpleBayes/app/scripts/app.js",
+		"/C/Users/Etienne/Desktop/SimpleBayes/app/scripts/controllers/main.js",
+		"/C/Users/Etienne/Desktop/SimpleBayes/bower.json",
+		"/C/Users/Etienne/Desktop/SimpleBayes/app/views/main.html",
+		"/C/Users/Etienne/Desktop/SimpleBayes/app/bower_components/angular-scenario/bower.json",
+		"/C/Users/Etienne/Desktop/SimpleBayes/.tmp/styles/main.css",
+		"/C/Users/Etienne/Desktop/SimpleBayes/test/runner.html",
+		"/C/Users/Etienne/Desktop/SimpleBayes/karma.conf.js",
+		"/C/Users/Etienne/Desktop/SimpleBayes/.bowerrc",
+		"/C/Users/Etienne/Desktop/SimpleBayes/app/index.html",
+		"/C/Users/Etienne/Desktop/SimpleBayes/app/styles/main.css",
+		"/C/Users/Etienne/Desktop/SimpleBayes/Gruntfile.js",
+		"/C/Users/Etienne/Desktop/Commander/donut.js",
+		"/E/DL/radar.html",
+		"/C/Users/Etienne/Desktop/Commander/dashboard.html",
+		"/C/Users/Etienne/Desktop/Commander/marking.js",
+		"/C/Users/Etienne/Desktop/Commander/commonChartElements.js",
+		"/C/Users/Etienne/Desktop/Commander/dashboard.css",
+		"/C/Users/Etienne/Desktop/Commander/dashboard.js",
+		"/C/Users/Etienne/Desktop/Commander/bublechart.js",
+		"/C/Users/Etienne/Desktop/Commander/scatterplot.js",
+		"/C/Users/Etienne/Desktop/Commander/barchart.js",
+		"/C/Users/Etienne/Desktop/Commander/sumbarchart.js",
+		"/C/Users/Etienne/Desktop/Commander/boxplot.js",
+		"/C/Users/Etienne/Desktop/Dem Lists/app/index.html",
+		"/E/DL/cv.html",
+		"/C/Users/Etienne/Desktop/Commander/common.css",
+		"/C/Users/Etienne/Desktop/Commander/data.js",
+		"/C/Users/Etienne/Desktop/Commander/list.js",
+		"/C/Users/Etienne/Desktop/Commander/data.tsv",
+		"/C/Users/Etienne/Desktop/Commander/data2.csv",
+		"/C/Users/Etienne/Desktop/Commander/data2.tsv",
+		"/C/Users/Etienne/Desktop/Commander/slider.css",
+		"/C/Users/Etienne/Desktop/Commander/data.csv",
+		"/C/Users/Etienne/Desktop/Commander/jQRangeSlider-5.5.0/css/classic.css",
+		"/C/Users/Etienne/Desktop/SetteQuaci/gameEngine.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/controllers/playcontroller.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/engine/braveprototype.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/engine/creatureprototype.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/engine/siteprototype.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/views/play/board.html",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/directives/creature.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/css/game.css",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/services/braveservice.js",
+		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/engine/eng.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/index.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/lib/angular-animate/angular-animate.min.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/lib/angular-animate/angular-animate-min.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/lib/angular-animate/angular-animate.js",
+		"/C/Users/Etienne/Desktop/SetteQuaci/p-game.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/gamescontroller.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/games/list.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/app.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/siteservice.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/css/app.css",
+		"/C/Users/Etienne/Desktop/SetteQuaci/css/core.css",
+		"/C/Users/Etienne/Desktop/SetteQuaci/css/game.css",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/default.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/users/signup.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/users/signin.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/games/view.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/games/edit.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/braves/view.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/braves/list.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/play/board.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/playcontroller.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/braveservice.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/creatureservice.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/bravescontroller.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/config.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/headercontroller.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/siteservice",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/gameservice.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/header.html",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/firerefservice.js",
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/loginservice.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Etienne\\Desktop\\SQ Firebase\\app",
+			"C:\\Users\\Etienne\\Desktop\\SQ Firebase\\app\\js",
+			"C:\\Users\\Etienne\\Desktop\\SQ Firebase"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"filterType",
+			"item",
+			"id",
+			"getCompoundFromName",
+			"element",
+			"OpenPhacts",
+			"item",
+			"wdg",
+			"item",
+			"2",
+			"OpUrl",
+			"uri",
+			"result",
+			"post",
+			"name",
+			"article",
+			"submit",
+			"div",
+			"5",
+			"template",
+			"name",
+			"askForEntityName",
+			"Cancel",
+			"cancel",
+			"Cancel",
+			"cancel",
+			"triplet",
+			"Triplet",
+			"triplet",
+			"$scope.datadir",
+			"triplet",
+			"Triplet",
+			"triplet",
+			"Triplet",
+			"$scope.datadir",
+			"editedElement",
+			"// -",
+			"editedDirective",
+			"state",
+			"$scope.editedElement",
+			"$scope.cursorPos",
+			"$scope.selectedText",
+			"cursorPos",
+			"selectedText",
+			"tooltip",
+			"Tooltip",
+			"tooltip",
+			"Tooltip",
+			"tooltip",
+			"startPowerEdit",
+			"closeDataModal",
+			"openDataModal",
+			"editedTriplet",
+			"update",
+			"cancelDataEdit",
+			"update",
+			"updateDataDirective",
+			"datadir",
+			"DataDir",
+			"datadir",
+			"DataDir",
+			"datadir",
+			"$scope.dataCurrent",
+			"tooltip",
+			"Tooltip",
+			"tooltip",
+			"Tooltip",
+			"showDirTooltip",
+			"tooltip",
+			"Tooltip",
+			"tooltip",
+			"Tool",
+			"dirTooltipText",
+			"object",
+			"insertDataDirective",
+			"article",
+			"Article",
+			"article",
+			"Article",
+			"article",
+			"Article",
+			"dataCurrentPredicate",
+			"tooltip",
+			"'<data p=\"'+$scope.dataCurrentPredicate+'\" s=\"'+$scope.dataCurrentSubject+'\">' + $scope.dataCurrentObject + '</data>'",
+			"\"",
+			"'",
+			"openDataEdit",
+			"DSM",
+			"el.",
+			"el",
+			"10",
+			"Element",
+			"daSelection",
+			"ctrl",
+			" type=\"submit\"",
+			"closeDataForm",
+			"sharedService",
+			"type=\"submit\" ",
+			"=",
+			"exampleInputEmail1",
+			"type=\"email\" ",
+			" display: table-footer-group;",
+			"style",
+			"input",
+			"AngularFire",
+			"angularFire",
+			"$bind",
+			"textarea",
+			"post",
+			"url",
+			"post",
+			"md5_hash",
+			"span",
+			"bs-example-navbar-collapse-1",
+			"post",
+			"posts",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"xLabels",
+			"x",
+			"left",
+			"cx",
+			"value",
+			"x"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"template",
+			"triplet",
+			"Article",
+			"",
+			" ",
+			"",
+			" ,",
+			" ",
+			".",
+			",",
+			"site",
+			"sites",
+			"game",
+			"brave",
+			"game",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Etienne/Desktop/web_components/app.js",
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Etienne/Desktop/web_components/index.html",
+					"settings":
+					{
+						"buffer_size": 923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Etienne/Desktop/web_components/directives/op_itm_compound.js",
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Etienne/Desktop/web_components/directives/op_lst_compound.js",
+					"settings":
+					{
+						"buffer_size": 801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Etienne/Desktop/web_components/directives/op_wdg_compound.js",
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Etienne/Desktop/web_components/services/OpenPhacts.js",
+					"settings":
+					{
+						"buffer_size": 2160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2065,
+								2065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Etienne/Desktop/web_components/directives/smiles.js",
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Etienne/Desktop/web_components/views/op_compound.html",
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								834,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true
+}

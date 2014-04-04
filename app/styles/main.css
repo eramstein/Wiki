@@ -1,0 +1,134 @@
+body {
+  padding:20px;
+  background: #F3F3F3;
+  height:100%;
+}
+
+select{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* DIRECTIVES */
+data{
+    background: #eee;
+    border:1px dashed #cccccc;
+    padding:0px 3px;
+    cursor:pointer;
+}
+
+#directive-tooltip{
+    background:#eee;
+    border:1px solid #cccccc;
+    position:absolute;
+    padding:0px 3px;
+}
+
+/* NAV BAR */
+.nav-pic {
+  margin: -2px 5px 0 0;
+  max-height: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.taskbar{
+    margin-bottom:20px;
+}
+
+
+
+/* MAIN ARTICLE PAGE */
+#article-view{
+    position:relative;
+    background: #fff;
+    border:1px solid #cccccc;
+    margin-right:15px;
+    padding:10px 20px;
+}
+
+#article-main, #article-edit{
+    width:49%;
+    float:left;
+}
+#article-edit-content{
+    width:100%;
+    height:400px;
+}
+
+#article-entity-label{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+
+.article {
+  background: #fff;
+  padding:15px;
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.article-title{
+    font-size: 2.5em;
+}
+
+.info {
+  font-weight: bolder;
+  font-size: 16px;
+  padding-bottom:5px;
+}
+
+.info .label {
+  margin-left:5px;
+}
+
+.info .url {
+  font-weight: normal;
+  color:#999;
+  font-size:13px;
+  margin-left:5px;
+}
+
+/* REGIST / LOGIN */
+.prof-img{
+  width:100%;
+  max-width:100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.nav-tabs {
+  margin-top:30px;
+}
+
+.auth-forms {
+  max-width:400px;
+  margin:0 auto;
+  background: #fff;
+  padding:1px 25px 25px 25px;
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+

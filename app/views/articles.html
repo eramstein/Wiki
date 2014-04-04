@@ -1,0 +1,45 @@
+
+<div class="taskbar">
+   <button class="btn btn-primary" ng-click="openArticleCreationModal()">New Article</button>
+</div>
+
+<!-- NEW ARTICLE FLYOUT -->
+<div id="new-article-flyout" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">New Article</h4>
+            </div>
+            <div class="modal-body">
+                <label for="article-name">Name</label>
+                <input id="article-name" type="text" class="form-control" placeholder="New article" ng-model="article.title">
+                <label for="article-entity">Entity</label>
+                <input id="article-entity" type="text" class="form-control" placeholder="About" ng-model="article.entity">
+                <label for="article-template">Template</label>
+                <select id="article-template" class="form-control" ng-model="article.template" ng-options="template as template.name for (templateId, template) in templates">
+                </select>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" ng-click="closeArticleCreationModal()">Cancel</button>
+                <button type="submit" class="btn btn-primary" ng-click="createArticle()">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="article" ng-repeat="(articleId, article) in articles">
+  <div class="info">
+      {{ article.title }}
+       <span class="label label-info" ng-if="article.template">
+        {{ article.template.name }}
+       </span>
+  </div>
+  <div>
+    <span>submitted by <a href="#/users/{{ article.author }}">{{ article.author }}</a></span>
+    -
+    <a href="#/articles/{{ articleId }}">edit</a>
+    -
+    <a ng-click="deleteArticle(articleId)">delete</a>
+  </div>
+</div>

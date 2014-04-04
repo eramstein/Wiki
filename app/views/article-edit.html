@@ -1,0 +1,178 @@
+<!--
+    ARTICLE VIEW & SIMPLE EDITING
+-->
+<div id="article-main">
+    <form class="form-inline taskbar" ng-show="signedIn()">
+      <button class="btn btn-primary" ng-click="template.openmodal()" ng-show="!article.template">Save as Template</button>
+      <button class="btn btn-primary" ng-click="">Advanced Edit</button>
+    </form>
+    <div id="article-view">
+        <div class="article-title" contenteditable="true" ng-model="article.title"></div>
+        <div id="article-entity-label" contenteditable="true" class="label label-info" ng-show="article.entity" ng-model="article.entity"></div>
+        <div id="articlemain" contenteditable="true" ng-model="article.content"></div>
+        <div id="directive-tooltip" style="top:{{tooltip.topPos}};left:{{tooltip.leftPos}}" ng-show="tooltip.show">{{tooltip.text}}</div>
+    </div>
+</div>
+
+<!--
+    ADVANCED EDITING
+-->
+<div id="article-edit">
+    <form class="form-inline taskbar" ng-show="signedIn()">
+      <button class="btn btn-default" ng-click="datadir.openform()" ng-active="state.editedElement !== null">Data</button>
+      <button class="btn btn-default" ng-click="consdir.openform()">Constructor</button>
+      <button class="btn btn-default" ng-click="contdir.openform()">Container</button>
+      <!-- <button class="btn btn-default">Block</button>
+      <button class="btn btn-primary" ng-click="compileAll()">Compile</button> -->
+    </form>
+    <textarea id="article-edit-content" ng-click="state.startAdvancedEditing($event)" ng-model="article.content"></textarea>
+</div>
+
+
+<!--
+    FLYOUTS
+-->
+
+<!-- <DATA> -->
+<div id="data-flyout" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">&lt;DATA&gt;</h4>
+                <div class="modal-subtitle">
+                    e.g. object is "Berlin", predicate is "isCapitalOf" and subject is "Germany".
+                </div>
+            </div>
+            <div class="modal-body">
+                <label for="tt-input-object">Object</label>
+                <textarea class="form-control" id="tt-input-object" ng-model="datadir.object"></textarea>
+                <label for="tt-input-predicate">Predicate</label>
+                <input class="form-control" id="tt-input-predicate" ng-model="datadir.predicate">
+                <label for="tt-input-subject">Subject</label>
+                <input class="form-control" id="tt-input-subject" ng-model="datadir.subject">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" ng-click="datadir.exit()">Cancel</button>
+                <button class="btn btn-primary" ng-click="datadir.update()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <CONS> -->
+<div id="cons-flyout" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" cons-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">&lt;CONSTRUCTOR&gt;</h4>
+            </div>
+            <div class="modal-body">
+                <!-- picklist of available constructors -->
+                <div ng-show="!consdir.selected">
+                    <div class="modal-subtitle">
+                       Pick a constructor:
+                    </div>
+                    <button class="btn btn-default" ng-repeat="item in consdir.list" ng-click="consdir.selected = item">{{item.desc}}</button>
+                </div>
+                <!-- attributes of selected constructor -->
+                <div ng-show="consdir.selected">
+                    <div ng-repeat="(name, attr) in consdir.selected.attrs">
+                        <label for="cons-attr-{{name}}">{{attr.label}}</label>
+                        <input class="form-control" id="cons-attr-{{name}}" ng-model="consdir.selected.attrs[name].value">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" ng-click="consdir.exit()">Cancel</button>
+                <button class="btn btn-primary" ng-click="consdir.insert()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <CONT> -->
+<div id="cont-flyout" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" cont-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">&lt;CONTAINER&gt;</h4>
+            </div>
+            <div class="modal-body">
+                <!-- picklist of available containers -->
+                <div ng-show="!contdir.selected">
+                    <div class="modal-subtitle">
+                       Pick a container:
+                    </div>
+                    <button class="btn btn-default" ng-repeat="item in contdir.list" ng-click="contdir.selected = item">{{item.desc}}</button>
+                </div>
+                <!-- attributes of selected containers -->
+                <div ng-show="contdir.selected">
+                    <div class="modal-subtitle">
+                       Parameters:
+                    </div>
+                    <div ng-repeat="(name, attr) in contdir.selected.attrs">
+                        <label for="cont-attr-{{name}}">{{attr.label}}</label>
+                        <input class="form-control" id="cont-attr-{{name}}" ng-model="contdir.selected.attrs[name].value">
+                    </div>
+                    <div class="modal-subtitle">
+                       Available data fields:
+                    </div>
+                    <div ng-repeat="field in contdir.selected.fields" ng-click="contdir.addToTemplate(field)">
+                        {{field.accessor}} - {{field.definition}}
+                    </div>
+                    <div class="modal-subtitle">
+                       Build template:
+                    </div>
+                    <textarea ng-model="contdir.content"></textarea>
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" ng-click="contdir.exit()">Cancel</button>
+                <button class="btn btn-primary" ng-click="contdir.insert()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TEMPLATES -->
+<div id="template-flyout" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Save as Template</h4>
+            </div>
+            <div class="modal-body">
+                <!-- step 1 : name and entity type -->
+                <div ng-show="!template.created">
+                    <label for="tt-input-template-name">Name</label>
+                    <textarea class="form-control" id="tt-input-template-name" ng-model="template.name"></textarea>
+                    <label for="tt-input-predicate">Related to</label>
+                    <input class="form-control" id="tt-input-predicate" ng-model="template.entityType">
+                </div>
+                <!-- step 2 : once the template is created and assigned to that article, ask a reference to an entity for that article  -->
+                <div ng-show="template.created">
+                    <span class="label label-success">Template created!</span>
+                    <label for="tt-input-template-entity">To which {{template.entityType}} is this article related to ?</label>
+                    <textarea class="form-control" id="tt-input-template-entity" ng-model="article.entity"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <!-- step 1 -->
+                <div ng-show="!template.created">
+                    <button class="btn btn-default" ng-click="template.exit()">Cancel</button>
+                    <button class="btn btn-primary" ng-click="template.update()">Save</button>
+                </div>
+                <!-- step 2 -->
+                <div ng-show="template.created">
+                    <button class="btn btn-default" ng-click="template.exit()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

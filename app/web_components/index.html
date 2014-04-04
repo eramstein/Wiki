@@ -1,0 +1,29 @@
+<!doctype html>
+  <head>
+  </head>
+  <body ng-app="wc">
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <script src="services/OpenPhacts.js"></script>
+    <script src="directives/op_wdg_compound.js"></script>
+    <script src="directives/op_itm_compound.js"></script>
+    <script src="directives/op_lst_compound.js"></script>
+    <script src="directives/smiles.js"></script>
+
+    <itm-compound item="aspirin">
+        <div>{{ChEMBL.smiles}}</div>
+        <wdg-smiles-viz smiles="{{ChEMBL.smiles}}"></wdg-smiles-viz>
+    </itm-compound>
+
+    <lst-compound-pharmacology item="aspirin" filter-for-type="Potency">
+        <table>
+            <tr ng-repeat="item in items">
+                <td>{{item.activityComment}}</td>
+            </tr>
+        </table>
+    </lst-compound-pharmacology>
+
+    <wdg-compound item="aspirin"></wdg-compound>
+
+  </body>
+</html>
