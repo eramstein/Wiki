@@ -287,6 +287,7 @@ app.controller('ArticleEditCtrl', function ($scope, $routeParams, $rootScope, Ar
     $scope.contdir.exit = function () {
         this.closemodal();
         this.selected = null;
+        this.content = "";
         $scope.editedDirective = null;
     };
 

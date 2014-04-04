@@ -5,6 +5,7 @@ app.directive('cont', function($rootScope) {
     restrict: 'E',
     scope: {'content': '@'},
     link: function(scope, elm, attrs) {
+        //TODO : onclick, open form to edit the container
     }
   };
 });

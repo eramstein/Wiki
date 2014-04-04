@@ -19,9 +19,13 @@ select{
 
 /* DIRECTIVES */
 data{
-    background: #eee;
+    background: #f5f5f5;
     border:1px dashed #cccccc;
     padding:0px 3px;
+    cursor:pointer;
+}
+
+cont, comp {
     cursor:pointer;
 }
 
