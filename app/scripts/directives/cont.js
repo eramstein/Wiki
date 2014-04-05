@@ -5,7 +5,12 @@ app.directive('cont', function($rootScope) {
     restrict: 'E',
     scope: {'content': '@'},
     link: function(scope, elm, attrs) {
-        //TODO : onclick, open form to edit the container
+        //on click, show form by broadcasting an event listened by the article-edit controller
+        elm.bind('click', function() {
+            scope.$apply(function(){
+                $rootScope.$broadcast('showContForm',elm,scope.content);
+            });
+        });
     }
   };
 });

@@ -71,9 +71,6 @@
             <div class="modal-body">
                 <!-- picklist of available constructors -->
                 <div ng-show="!consdir.selected">
-                    <div class="modal-subtitle">
-                       Pick a constructor:
-                    </div>
                     <button class="btn btn-default" ng-repeat="item in consdir.list" ng-click="consdir.selected = item">{{item.desc}}</button>
                 </div>
                 <!-- attributes of selected constructor -->
@@ -103,37 +100,26 @@
             </div>
             <div class="modal-body">
                 <!-- picklist of available containers -->
-                <div ng-show="!contdir.selected">
-                    <div class="modal-subtitle">
-                       Pick a container:
-                    </div>
-                    <button class="btn btn-default" ng-repeat="item in contdir.list" ng-click="contdir.selected = item">{{item.desc}}</button>
+                <div ng-show="!contdir.selected && !editedDirective">
+                    <button class="btn btn-default" ng-repeat="(name, item) in contdir.list" ng-click="contdir.select(name, item)">{{item.desc}}</button>
                 </div>
                 <!-- attributes of selected containers -->
-                <div ng-show="contdir.selected">
-                    <div class="modal-subtitle">
-                       Parameters:
-                    </div>
+                <div ng-show="contdir.selected || editedDirective">
                     <div ng-repeat="(name, attr) in contdir.selected.attrs">
                         <label for="cont-attr-{{name}}">{{attr.label}}</label>
                         <input class="form-control" id="cont-attr-{{name}}" ng-model="contdir.selected.attrs[name].value">
                     </div>
-                    <div class="modal-subtitle">
-                       Available data fields:
-                    </div>
+                    <label>Build template</label>
                     <div ng-repeat="field in contdir.selected.fields" ng-click="contdir.addToTemplate(field)">
-                        {{field.accessor}} - {{field.definition}}
+                        <span class="label label-primary">{{field.definition}}</span>
                     </div>
-                    <div class="modal-subtitle">
-                       Build template:
-                    </div>
-                    <textarea ng-model="contdir.content"></textarea>
+                    <textarea id="cont-edit-content" ng-model="contdir.content"></textarea>
                 </div>
                 
             </div>
             <div class="modal-footer">
                 <button class="btn btn-default" ng-click="contdir.exit()">Cancel</button>
-                <button class="btn btn-primary" ng-click="contdir.insert()">Save</button>
+                <button class="btn btn-primary" ng-click="contdir.update()">Save</button>
             </div>
         </div>
     </div>

@@ -8,14 +8,7 @@ app.factory('TerribleStuff',
 
     var TerribleStuff = {
       cleanContent: function (html) {
-        var cleanHTML = html;
-        //after rendering ngModel angular adds spans and classes to keep track of the various scopes
-        //we don't want to store that in the database but I didn't find how to prevent angular to add this (and it might be a bad idea to prevent it anyways)
-        cleanHTML = cleanHTML.replace(/<span class=\"ng-scope\">/g, "");
-        cleanHTML = cleanHTML.replace(/ class=\"ng-scope ng-isolate-scope\"/g, "");
-        cleanHTML = cleanHTML.replace(/ class=\"ng-scope\"/g, "");
-        cleanHTML = cleanHTML.replace(/ class=\"ng-isolate-scope\"/g, "");
-        cleanHTML = cleanHTML.replace(/<\/span>/g, "");
+        var cleanHTML = html;        
         //remove inner HTML of the components (this is generated at runtime by the directives and doesn't need to be saved in the database)
         //first create a div to use the DOM's HTML parser (trying to do that with regexp would be painful, error prone and evil)
         var div = document.createElement("div");
@@ -35,8 +28,15 @@ app.factory('TerribleStuff',
                contentToReplace = cont.outerHTML;
                contentToRemove = cont.innerHTML;
                contentToRestore = contentToReplace.replace(contentToRemove, decodeURIComponent(cont.getAttribute("content")));
-               cleanHTML = cleanHTML.replace(contentToReplace, contentToRestore);               
+               cleanHTML = cleanHTML.replace(contentToReplace, contentToRestore);      
              });
+        //after rendering ngModel angular adds spans and classes to keep track of the various scopes
+        //we don't want to store that in the database but I didn't find how to prevent angular to add this (and it might be a bad idea to prevent it anyways)
+        cleanHTML = cleanHTML.replace(/<span class=\"ng-scope\">/g, "");
+        cleanHTML = cleanHTML.replace(/ class=\"ng-scope ng-isolate-scope\"/g, "");
+        cleanHTML = cleanHTML.replace(/ class=\"ng-scope\"/g, "");
+        cleanHTML = cleanHTML.replace(/ class=\"ng-isolate-scope\"/g, "");
+        cleanHTML = cleanHTML.replace(/<\/span>/g, "");
         return cleanHTML;
       }
     };

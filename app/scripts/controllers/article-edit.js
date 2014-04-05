@@ -206,7 +206,7 @@ app.controller('ArticleEditCtrl', function ($scope, $routeParams, $rootScope, Ar
     };
     $scope.consdir.closemodal = function () {
         angular.element('#cons-flyout').modal('hide');
-    };
+    };    
     //insert construct
     $scope.consdir.insert = function () {
         var oldContent;
@@ -258,6 +258,25 @@ app.controller('ArticleEditCtrl', function ($scope, $routeParams, $rootScope, Ar
     $scope.contdir.closemodal = function () {
         angular.element('#cont-flyout').modal('hide');
     };
+    //select a container and add its name as an id parameter
+    $scope.contdir.select = function (name, item) {
+        var selected = item;
+        selected.id = name;
+        this.selected = selected;
+    };
+    //update container or insert if no directive is being edited
+    $scope.contdir.update = function(){
+       if($scope.editedDirective){            
+            var oldContent = angular.element($scope.editedDirective).context.attributes.content.value;
+            var oldContentDecoded = decodeURIComponent(oldContent);
+            $scope.article.content = $scope.article.content.replace(oldContent, encodeURIComponent($scope.contdir.content));
+            $scope.article.content = $scope.article.content.replace(oldContentDecoded, $scope.contdir.content);
+            this.closemodal();
+       }
+       else {
+         $scope.contdir.insert();
+       }
+    };
     //insert container
     $scope.contdir.insert = function () {
         var oldContent;
@@ -270,7 +289,7 @@ app.controller('ArticleEditCtrl', function ($scope, $routeParams, $rootScope, Ar
                attributesString += key + '="' + value.value + '"';
              });
         directive = '<' + this.selected.name + ' ' + attributesString + '>' + this.content + '</' + this.selected.name + '>';
-        directive = '<cont content=\'' + encodeURIComponent(directive) + '\'>' + directive + '</cont>';
+        directive = '<cont compid=\'' + this.selected.id + '\' content=\'' + encodeURIComponent(directive) + '\'>' + directive + '</cont>';
         //insert it
         oldContent = $scope.article.content;
         newcontent = oldContent.substr(0,$scope.state.cursorPos);
@@ -281,7 +300,7 @@ app.controller('ArticleEditCtrl', function ($scope, $routeParams, $rootScope, Ar
     };
     //add a field to the template (just append a div)
     $scope.contdir.addToTemplate = function (field) {
-        this.content += "<div>{{"+field.accessor+"}}</div>";
+        this.content += "{{"+field.accessor+"}}"; 
     };
     //close the modal and reset state
     $scope.contdir.exit = function () {
@@ -290,6 +309,19 @@ app.controller('ArticleEditCtrl', function ($scope, $routeParams, $rootScope, Ar
         this.content = "";
         $scope.editedDirective = null;
     };
+    //when a <cont> directive is clicked, set scope values from the current directive's attributes and open the form to edit the directive
+    $scope.$on('showContForm', function(event, sourceElem, content) {
+        //note that this directive is being edited
+        $scope.editedDirective = sourceElem[0];
+        //retrieve what was the container id from the compid attribute
+        var componentId = angular.element(sourceElem[0]).context.attributes.compid.value;
+        //set the selected container accordingly, to update the flyout values
+        $scope.contdir.selected = Component.containers[componentId];
+        //restore content
+        $scope.contdir.content = decodeURIComponent(content);
+        //open form
+        $scope.contdir.openmodal();
+      });
 
     //-------------------------------------------------------------------
     // MISC functions

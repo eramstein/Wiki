@@ -44,74 +44,98 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/app.js",
+			"file": "app/views/article-edit.html",
 			"settings":
 			{
-				"buffer_size": 225,
+				"buffer_size": 8604,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/index.html",
+			"file": "app/scripts/controllers/article-edit.js",
 			"settings":
 			{
-				"buffer_size": 923,
+				"buffer_size": 11998,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/web_components/app.js",
+			"settings":
+			{
+				"buffer_size": 188,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/directives/op_itm_compound.js",
+			"file": "app/web_components/directives/op_wdg_compound.js",
 			"settings":
 			{
-				"buffer_size": 794,
+				"buffer_size": 677,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/directives/op_lst_compound.js",
+			"file": "app/scripts/services/component.js",
 			"settings":
 			{
-				"buffer_size": 801,
+				"buffer_size": 470,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/directives/op_wdg_compound.js",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 662,
+				"buffer_size": 3978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/directives/content-editable.js",
+			"settings":
+			{
+				"buffer_size": 1165,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/services/OpenPhacts.js",
+			"file": "app/scripts/services/terrible-stuff.js",
 			"settings":
 			{
-				"buffer_size": 2160,
+				"buffer_size": 2399,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/directives/smiles.js",
+			"file": "app/scripts/directives/data.js",
 			"settings":
 			{
-				"buffer_size": 510,
+				"buffer_size": 942,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Etienne/Desktop/web_components/views/op_compound.html",
+			"file": "app/scripts/directives/cont.js",
 			"settings":
 			{
-				"buffer_size": 847,
+				"buffer_size": 231,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/main.css",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 334.0,
 		"selected_items":
 		[
 			[
@@ -168,6 +192,21 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Etienne/Desktop/Wiki/.jshintrc",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/User/snip-js-ng-each.sublime-snippet",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/User/snip-js-log.sublime-snippet",
+		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/components",
+		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/article.js",
+		"/C/Users/Etienne/Desktop/Wiki/app/web_components/index.html",
+		"/C/Users/Etienne/Desktop/web_components/app.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/op_itm_compound.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/op_lst_compound.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/op_wdg_compound.js",
+		"/C/Users/Etienne/Desktop/web_components/services/OpenPhacts.js",
+		"/C/Users/Etienne/Desktop/web_components/directives/smiles.js",
+		"/C/Users/Etienne/Desktop/web_components/views/op_compound.html",
+		"/C/Users/Etienne/Desktop/web_components/index.html",
 		"/C/Users/Etienne/Desktop/web_components/directives/op_compound.js",
 		"/C/Users/Etienne/Desktop/web_components/directives/op_object.js",
 		"/C/Users/Etienne/Desktop/web_components/directives/op_compound_cont.js",
@@ -186,7 +225,6 @@
 		"/C/Users/Etienne/Desktop/Wiki/app/scripts/directives/content-editable.js",
 		"/C/Users/Etienne/Desktop/Wiki/app/index.html",
 		"/C/Users/Etienne/Desktop/Wiki/app/views/login.html",
-		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/article.js",
 		"/C/Users/Etienne/Desktop/Wiki/app/scripts/directives/autofill-fix.js",
 		"/C/Users/Etienne/Desktop/Wiki/app/views/nav.html",
 		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/terrible-stuff.js",
@@ -197,7 +235,6 @@
 		"/C/Users/Etienne/Desktop/Wiki/app/scripts/services/flyouts.js",
 		"/C/Users/Etienne/Google Drive/CV/cv.css",
 		"/C/Users/Etienne/Google Drive/CV/cv.html",
-		"/C/Users/Etienne/Desktop/Wiki/.jshintrc",
 		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/config.js",
 		"/C/Users/Etienne/Desktop/SQ Firebase/app/js/app.js",
 		"/C/Users/Etienne/Desktop/SQ Firebase/app/index.html",
@@ -282,20 +319,7 @@
 		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/games/view.html",
 		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/games/edit.html",
 		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/braves/view.html",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/braves/list.html",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/play/board.html",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/playcontroller.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/braveservice.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/creatureservice.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/bravescontroller.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/config.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/controllers/headercontroller.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/siteservice",
-		"/C/Users/Etienne/AppData/Roaming/Sublime Text 2/Packages/Emmet/Default (Windows).sublime-keymap",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/gameservice.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/header.html",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/firerefservice.js",
-		"/C/Users/Etienne/Desktop/FirebaseTuto/app/js/services/loginservice.js"
+		"/C/Users/Etienne/Desktop/FirebaseTuto/app/views/braves/list.html"
 	],
 	"find":
 	{
@@ -306,6 +330,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"C:\\Users\\Etienne\\Desktop\\Wiki",
 			"C:\\Users\\Etienne\\Desktop\\SQ Firebase\\app",
 			"C:\\Users\\Etienne\\Desktop\\SQ Firebase\\app\\js",
 			"C:\\Users\\Etienne\\Desktop\\SQ Firebase"
@@ -316,6 +341,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" div",
+			"cons",
+			"constructors",
+			"conttruct",
+			"attr",
+			"name",
+			"attr",
+			"conttructors",
+			"cons",
+			"CONS",
+			"cons",
+			"cleanEmptySpans",
+			"data",
+			"openform",
+			"data",
+			"attr.name",
+			"tt-input",
+			"data",
+			"DATA",
+			"data",
+			"constructors",
+			"comp",
 			"filterType",
 			"item",
 			"id",
@@ -421,29 +468,7 @@
 			"style",
 			"input",
 			"AngularFire",
-			"angularFire",
-			"$bind",
-			"textarea",
-			"post",
-			"url",
-			"post",
-			"md5_hash",
-			"span",
-			"bs-example-navbar-collapse-1",
-			"post",
-			"posts",
-			"Post",
-			"post",
-			"Post",
-			"post",
-			"Post",
-			"post",
-			"xLabels",
-			"x",
-			"left",
-			"cx",
-			"value",
-			"x"
+			"angularFire"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -477,75 +502,79 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Etienne/Desktop/web_components/app.js",
+					"file": "app/views/article-edit.html",
 					"settings":
 					{
-						"buffer_size": 225,
+						"buffer_size": 8604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								5948,
+								5961
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1350.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Etienne/Desktop/web_components/index.html",
+					"file": "app/scripts/controllers/article-edit.js",
 					"settings":
 					{
-						"buffer_size": 923,
+						"buffer_size": 11998,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								745,
-								745
+								11721,
+								11721
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3774.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/Etienne/Desktop/web_components/directives/op_itm_compound.js",
+					"file": "app/web_components/app.js",
 					"settings":
 					{
-						"buffer_size": 794,
+						"buffer_size": 188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								767,
-								767
+								36,
+								36
 							]
 						],
 						"settings":
@@ -560,23 +589,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/Etienne/Desktop/web_components/directives/op_lst_compound.js",
+					"file": "app/web_components/directives/op_wdg_compound.js",
 					"settings":
 					{
-						"buffer_size": 801,
+						"buffer_size": 677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								156,
+								156
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -586,23 +617,25 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/Etienne/Desktop/web_components/directives/op_wdg_compound.js",
+					"file": "app/scripts/services/component.js",
 					"settings":
 					{
-						"buffer_size": 662,
+						"buffer_size": 470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								276,
-								276
+								470,
+								470
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -612,49 +645,53 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/C/Users/Etienne/Desktop/web_components/services/OpenPhacts.js",
+					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 2160,
+						"buffer_size": 3978,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2065,
-								2065
+								2723,
+								2723
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "/C/Users/Etienne/Desktop/web_components/directives/smiles.js",
+					"file": "app/scripts/directives/content-editable.js",
 					"settings":
 					{
-						"buffer_size": 510,
+						"buffer_size": 1165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								268,
-								268
+								393,
+								393
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -664,23 +701,109 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/C/Users/Etienne/Desktop/web_components/views/op_compound.html",
+					"file": "app/scripts/services/terrible-stuff.js",
 					"settings":
 					{
-						"buffer_size": 847,
+						"buffer_size": 2399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								812
+								2163,
+								2163
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/scripts/directives/data.js",
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/scripts/directives/cont.js",
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/styles/main.css",
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
